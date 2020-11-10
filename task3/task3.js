@@ -42,4 +42,5 @@ function getListImgs(arr) {
     return list.join('');
 }
 const listImgs = getListImgs(images);
+
 galleryRef.insertAdjacentHTML('afterbegin', listImgs);
